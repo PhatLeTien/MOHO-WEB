@@ -1,0 +1,160 @@
+/*Footer*/
+.footer {
+    background-color: #fff;
+    padding: 150px 0;
+    position: relative;
+    margin: 15px auto;
+    /* Thay đổi margin để căn giữa */
+    width: 100%;
+    /* Sử dụng chiều rộng 100% */
+    text-align: center;
+    /* Căn giữa nội dung */
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* Để đảm bảo nội dung được căn giữa theo chiều dọc */
+
+    max-width: 1200px;
+    /* Giới hạn chiều rộng tối đa của container */
+    margin: 0 auto;
+    /* Căn giữa container bằng cách đặt margin auto cho cả hai bên */
+}
+
+.footer-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.col-md-3 {
+    width: 25%;
+    padding: 0 15px;
+    text-align: justify;
+
+}
+
+
+.footer-title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.footer-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-list li {
+    margin-bottom: 10px;
+}
+
+.col-md-3 .footer-list li a {
+    text-decoration: none;
+    /* Loại bỏ gạch chân */
+
+}
+
+.footer-list a {
+    color: #333;
+    text-decoration: none;
+}
+
+.footer-list a:hover {
+    text-decoration: underline;
+}
+
+.footer-fanpage iframe {
+    border: none;
+    overflow: hidden;
+    width: 300px;
+    /* Thay đổi kích thước iframe nếu cần */
+    height: 200px;
+    /* Thay đổi kích thước iframe nếu cần */
+}
+
+.moho-certification {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    margin-top: 10px;
+}
+
+.moho-certification img {
+    width: 150px;
+    height: auto;
+    margin: 10px 0;
+}
+
+.copyright {
+    font-family: "Arial", sans-serif !important;
+    background-color: #151515;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    overflow-y: auto;
+    /* Hoặc overflow-y: auto; */
+    margin-top: 275px;
+}
+
+.copyright p {
+    margin-top: 30px;
+}
+
+.social-icons,
+.link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.social-icons span {
+    margin: 0 30px;
+    justify-content: center;
+    font-size: 24px;
+    display: inline-block;
+    margin: 0 10px;
+    transition: transform 0.3s ease;
+    margin-top: 25px;
+}
+
+.social-icons span:hover {
+    transform: scale(1.2);
+}
+
+.link a {
+    text-decoration: none;
+    color: #000000;
+    margin-top: -1px;
+}
+
+/* Styles for social icons */
+.fa-facebook {
+    color: #3b5998;
+    /* Facebook blue */
+}
+
+.fa-youtube {
+    color: #ff0000;
+    /* YouTube red */
+}
+
+.fa-instagram {
+    color: #c13584;
+    /* Instagram pink */
+}
+
+.fa-tiktok {
+    color: #000000;
+    /* TikTok black */
+}
